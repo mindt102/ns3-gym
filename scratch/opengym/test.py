@@ -32,6 +32,7 @@ simArgs = {"--simTime": simTime,
 debug = False
 
 env = ns3env.Ns3Env(port=port, stepTime=stepTime, startSim=startSim, simSeed=seed, simArgs=simArgs, debug=debug)
+print(env)
 # simpler:
 #env = ns3env.Ns3Env()
 env.reset()
